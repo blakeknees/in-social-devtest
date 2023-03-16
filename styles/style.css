@@ -473,14 +473,14 @@ header .container .hamburger .bar {
   border-radius: 10px;
 }
 
-.projects {
+#featured {
   background-color: #233A59;
 }
-.projects h2 {
+#featured h2 {
   color: #D99191;
   margin-top: 4rem;
 }
-.projects .project-container {
+#featured .project-container {
   margin-top: 2rem;
   margin-bottom: 5rem;
   display: -webkit-box;
@@ -489,61 +489,59 @@ header .container .hamburger .bar {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.projects .project-box {
+#featured .project-box {
   background-color: #c5a3d0;
   height: 30rem;
-  -ms-flex-preferred-size: 46%;
-      flex-basis: 46%;
-  width: 25rem;
+  width: 15rem;
   margin: 1rem;
   border-radius: 15px;
 }
-.projects .project-box h3,
-.projects .project-box p {
+#featured .project-box h3,
+#featured .project-box p {
   text-align: center;
 }
-.projects .project-box h3 {
+#featured .project-box h3 {
   margin: 1rem 0 1rem 0;
 }
-.projects .project-box h4 {
+#featured .project-box h4 {
   color: #57568C;
   text-align: center;
 }
-.projects .project-box a {
+#featured .project-box a {
   font-weight: bold;
   color: #f9e3e3;
 }
-.projects .project-box img {
-  height: 200px;
+#featured .project-box img {
+  height: 300px;
   width: 800px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
-.projects .project-box .project-content {
+#featured .project-box .project-content {
   display: flex-column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0.5rem;
 }
-.projects .project-box .project-content h4 {
+#featured .project-box .project-content h4 {
   font-size: 0.75rem;
 }
-.projects .project-box .project-content p {
+#featured .project-box .project-content p {
   font-size: 0.75rem;
 }
-.projects .project-box .project-content .button-box {
+#featured .project-box .project-content .button-box {
   margin-top: 1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.projects .project-box .project-content .button-box button {
+#featured .project-box .project-content .button-box button {
   width: 30%;
   margin-right: 1rem;
 }
-.projects .project-box .project-content .button-box button a {
+#featured .project-box .project-content .button-box button a {
   color: #f9e3e3;
 }
 

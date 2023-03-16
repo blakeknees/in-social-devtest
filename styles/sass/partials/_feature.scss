@@ -1,6 +1,6 @@
 @use './variables';
 
-.projects {
+#featured {
     background-color: variables.$dark-blue;
 
     h2 {
@@ -18,8 +18,8 @@
     .project-box {
         background-color: #c5a3d0;
         height: 30rem;
-        flex-basis: 46%;
-        width: 25rem;
+        // flex-basis: 50%;
+        width: 15rem;
         margin: 1rem;
         border-radius: 15px;
 
@@ -44,7 +44,7 @@
         }
 
         img {
-            height: 200px;
+            height: 300px;
             width: 800px;
             object-fit: cover;
             border-radius: 15px 15px 0 0;
