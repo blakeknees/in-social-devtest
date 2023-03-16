@@ -1,0 +1,84 @@
+@use './variables';
+
+.projects {
+    background-color: variables.$dark-blue;
+
+    h2 {
+        color: variables.$light-pink;
+        margin-top: 4rem;
+    }
+
+    .project-container {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-box {
+        background-color: #c5a3d0;
+        height: 30rem;
+        flex-basis: 46%;
+        width: 25rem;
+        margin: 1rem;
+        border-radius: 15px;
+
+        h3,
+        p {
+            // color: variables.$body;
+            text-align: center;
+        }
+
+        h3 {
+            margin: 1rem 0 1rem 0;
+        }
+
+        h4 {
+            color: variables.$link1;
+            text-align: center;
+        }
+
+        a {
+            font-weight: bold;
+            color: variables.$link2
+        }
+
+        img {
+            height: 200px;
+            width: 800px;
+            object-fit: cover;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .project-content {
+            display: flex-column;
+            justify-content: space-between;
+            margin: .5rem;
+
+            h4 {
+                font-size: .75rem;
+            }
+
+            p {
+                font-size: .75rem;
+            }
+
+            .button-box {
+                margin-top: 1rem;
+                justify-content: center;
+                // align-items: baseline;
+
+                button {
+                    width: 30%;
+                    margin-right: 1rem;
+                    // font-family: variables.$title-font;
+
+                    a {
+                        color: variables.$link2;
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@use './variables';
+
+.stores {
+    background-color: variables.$purple;
+    
+    .stores-container {
+        display: flex;
+        justify-content: center;
+
+        .stores-boxes {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 2rem;
+            padding: 1rem;
+
+            p {
+                font-size: 14px;
+                margin: 10px;
+            }
+        }
+    }
+
+}

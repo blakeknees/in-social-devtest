@@ -1,0 +1,35 @@
+// TEXT COLOURS
+$h1: #BF6385;
+$link1: #57568C;
+$link2: #f9e3e3;
+
+
+// BACKGROUND COLOURS
+$dark-pink: #BF6385;
+$purple: #57568C;
+$dark-blue: #233A59;
+$peach: #F2C1AE;
+$light-pink: #D99191;
+
+// FONTS
+
+// HEADING
+@font-face {
+    font-family: 'Museo Sans Bold';
+    src: url(/assets/Fonts/MuseoSans_700.otf);
+}
+$heading: 'Museo Sans Bold';
+
+// SUBHEADING
+@font-face {
+    font-family: 'Museo Sans Medium';
+    src: url(/assets/Fonts/MuseoSans_500.otf);
+}
+$subheading: 'Museo Sans Medium';
+
+// BODY TEXT
+@font-face {
+    font-family: 'Museo Sans Light';
+    src: url(/assets/Fonts/MuseoSans-300.otf);
+}
+$body: 'Museo Sans Light';

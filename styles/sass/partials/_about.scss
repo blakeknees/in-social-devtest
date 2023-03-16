@@ -1,0 +1,42 @@
+@use './variables';
+
+.about {
+    background-color: variables.$light-pink;
+
+    .about-flex {
+        display: flex;
+        justify-content: space-evenly;
+
+        img {
+            width: 30%;
+        }
+
+        .about-text{
+            width: 40%;
+        }
+    }
+}
+.header-text-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
+    h1 {
+        color: variables.$h1;
+        text-shadow: 2px 2px 2px variables.$purple;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    p {
+        color: variables.$dark-pink;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 1mm;
+    }
+}
