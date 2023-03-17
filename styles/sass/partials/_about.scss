@@ -2,10 +2,12 @@
 
 #about {
     background-color: variables.$light-pink;
+    padding-bottom: 3rem;
 
     h1 {
         margin-top: 0;
-        padding-top: 2rem;
+        padding-top: 3rem;
+        color: variables.$dark-blue;
     }
     .about-flex {
         display: flex;
@@ -16,31 +18,18 @@
         }
 
         .about-text{
-            width: 40%;
+            width: 30%;
+            color: variables.$dark-blue;
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 4rem;
+            p {
+                color: variables.$dark-blue;
+                text-align: right;
+                letter-spacing: 1mm;
+            }
         }
-    }
-}
-.header-text-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-
-    h1 {
-        color: variables.$h1;
-        text-shadow: 2px 2px 2px variables.$purple;
-    }
-
-    h1,
-    p {
-        text-align: center;
-    }
-
-    p {
-        color: variables.$dark-pink;
-        font-style: italic;
-        font-weight: 600;
-        letter-spacing: 1mm;
     }
 }
