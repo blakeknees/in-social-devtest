@@ -61,11 +61,11 @@ header {
             }
         }
     }
-}
 
-.header-slideshow {
-    background-color: variables.$peach;
-
+    .header-slideshow {
+        background-color: variables.$peach;
+        margin: 0 auto;
+    
     ul {
         display: flex;
         justify-content: space-evenly;
@@ -76,5 +76,59 @@ header {
             border-radius: 10px;
         }
     }
-
+    
+        // .carousel {
+        //     position: relative;
+        //     overflow: hidden;
+            
+        //     .carousel-container {
+        //         position: relative;
+                
+        //         .product-list {
+        //             position: relative;
+        //             transition: transform 0.2s ease-in;
+                
+        //             li {
+        //                 width: 100%;
+        //                 margin: 0 auto;
+        //                 padding: 20px 0;
+        //                 position: absolute;
+        //                 top: 0;
+        //                 bottom: 0;
+        //                 left: 0;
+        //                 right: 0;
+        //                 height: 450px;
+                
+        //                 img {
+        //                     height: 250px;
+        //                     width: 30%;
+        //                     border-radius: 10px ;
+        //                     object-fit: cover;
+        //                     object-position: top;
+        //                     margin: 0 auto;
+        //                 }
+        //             }
+        //         }
+        
+        //     }
+            
+        //     .carousel-tracker {
+        //         position: absolute;
+        //         bottom: 50px;
+        //         right: 50%;
+        //         transform: translateX(50%);
+        
+        //         .indicator {
+        //             border: solid 1px red;
+        //             border-radius: 50%;
+        //             height: 15px;
+        //             width: 15px;
+        //             margin: 0 5px;
+        //             cursor: pointer;
+        //             padding: 5px;
+        
+        //         }
+        //     }
+        // }
+    }
 }

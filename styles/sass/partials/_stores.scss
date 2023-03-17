@@ -6,6 +6,7 @@
     h1 {
         margin-top: 0;
         padding-top: 2rem;
+        color: variables.$dark-pink;
     }
     
     .stores-container {
@@ -18,14 +19,20 @@
             display: flex;
             flex-direction: column;
             height: 100%;
-            border: 2px solid black;
+            border: 2px solid variables.$peach;
             border-radius: 10px;
             margin: 2rem;
             padding: 1rem;
 
+            &:hover, &:focus {
+                border: 4px solid variables.$peach;
+                transition: ease-in 0.3s;
+            }
+
             p {
                 font-size: 14px;
-                margin: 10px;
+                margin: 5px;
+                color: variables.$dark-pink;
             }
         }
     }
