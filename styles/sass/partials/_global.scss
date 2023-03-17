@@ -53,19 +53,6 @@ button {
     text-align: center;
     cursor: pointer;
     transition: 0.3s;
-
-    &:hover {
-        // background-color: variables.$footer;
-        // border: 2px solid variables.$footer;
-        // color: variables.$contact;
-    }
-
-    &:focus {
-        // background-color: variables.$footer;
-        // border: 2px solid variables.$footer;
-        // color: variables.$contact;
-        // border-radius: 5%;
-    }
 }
 
 fieldset,

@@ -1,3 +1,36 @@
+const productStore = {};
+
+// hamburger menu: https://www.youtube.com/watch?v=flItyHiDm7E&t=2s
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', () => {
+	hamburger.classList.toggle('active');
+	navMenu.classList.toggle('active');
+});
+
+document.querySelectorAll('.nav-link').forEach((link) =>
+	link.addEventListener('click', () => {
+		hamburger.classList.remove('active');
+		navMenu.classList.remove('active');
+	})
+);
+
+// clearing formspree form
+// tutorial: https://help.formspree.io/hc/en-us/articles/1500009404742-How-to-clear-a-form-after-submission
+productStore.clearForm = () => {
+
+    const contactForm = document.querySelector('#contact-form');
+    window.onbeforeunload = () => {
+        contactForm.reset();
+    };
+};
+
+productStore.clearForm();
+
+
+// NEED MORE TIME TO WORK THROUGH THIS
+
 //CAROUSEL 
 
 const track = document.querySelector('.product-list');
