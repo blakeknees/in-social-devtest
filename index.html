@@ -8,15 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- TITLE & FAVICONS -->
-    <title>Puffy Panda Shop</title>
+    <title>Panda Hoodies</title>
 
     <!-- STYLE SHEETS -->
     <link rel="stylesheet" href="styles/style.css">
 
     <!-- IMPORTED ICONS -->
-
-
-    <!-- FONTS -->
 
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -26,7 +23,6 @@
 <body data-aos="fade-down" data-aos-duration="5000">
     <!-- Skip Link -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
-
 
     <!-- HEADER -->
     <header id="home">
@@ -39,7 +35,7 @@
         
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#feature" class="nav-link">Featured Product</a>
+                        <a href="#featured" class="nav-link">Featured Product</a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">About</a>
@@ -79,67 +75,81 @@
     <main>
         <!-- FEATURED PRODUCT -->
         <section class="featured" id="featured">
-            <div class="flex-column wrapper" data-aos="fade-up" data-aos-duration="5000">
+            <div class="flex-column" data-aos="fade-up" data-aos-duration="5000">
+                
+                <h1>Featured Product</h1>
         
-                <h2>Featured Product</h2>
+                <div class="flex featured-container">
         
-                <div class="flex project-container">
-        
-                    <div class="project-box" data-aos="fade-down-right" data-aos-duration="5000">
-                        <div class="project-pic"><img src="./assets/Blue Purple Hoodie.jpg"
-                                alt="Blue Purple Hoodie">
+                    <div class="featured-box" data-aos="fade-down-right" data-aos-duration="5000">
+
+                        <div class="featured-pic"><img src="./assets/Blue Purple Hoodie.jpg" alt="Blue Purple Hoodie">
                         </div>
-                        <div class="project-content">
+
+                        <div class="featured-content">
                             <div class="flex-column">
                                 <h2>Tie-Dye Hoodie</h2>
                                 <h3>$50</h3>
-                                <p>Colour:</p>
-                                <ul>
-                                    <li>Blue-Pink</li>
-                                    <li>Blue-Purple</li>
-                                    <li>Green-Purple</li>
-                                </ul>
-                                <ul>
-                                    <li>XS</li>
-                                    <li>S</li>
-                                    <li>M</li>
-                                    <li>L</li>
-                                    <li>XL</li>
-                                </ul>
-                            </div>
-        
-                            <div class="button-box flex">
-                                <button><a href="https://beamish-quokka-0a63ba.netlify.app/" target="_blank">View
-                                        Live</a></button>
-        
-                                <button><a href="https://github.com/blakeknees/jenn-blakney-project-one" target="_blank">View
-                                        Code</a></button>
+                                <p>A twist on tie-dye, this collection is designed for a truly one-of-a-kind look. The unique washes are inspired by the
+                                rich colors of our summer collection. While similar to the photo, yours will be perfectly one-of-a-kind and vary from
+                                what is pictured.</p>
                             </div>
                         </div>
-                    </div> <!-- END .project-box-->
+                    </div> <!-- END .featured-box-->
         
-                    <div class="project-box" data-aos="fade-down-left" data-aos-duration="5000">
-                        <div class="project-pic"><img src="./assets/brewery-finder.png" alt="Screenshot of Brewery Finder App">
-                        </div>
-                        <div class="project-content">
+                    <div class="featured-box" data-aos="fade-down-left" data-aos-duration="5000">
+                        
+                        <div class="featured-content">
                             <div class="flex-column">
-                                <h3>Project 2:</h3>
-                                <h3>Brewery Finder</h3>
-                                <h4>HTML, CSS, JAVASCRIPT, API</h4>
-                                <p>Using a public brewery API, this paired project displayed brewery selections based on
-                                    city and type. Included some thematic animations and graphics.</p>
+                                <h2>Product Information:</h2>
+
+                                <div class="product-info">
+                                    <h3>Colour:</h3>
+                                    <ul>
+                                        <li class="swatches flex">
+                                            <img src="./assets/blue-pink-swatch.jpg" alt="blue pink swatch">
+                                            <p>Blue-Pink</p>
+                                        </li>
+                                        <li class="swatches flex">
+                                            <img src="./assets/blue-purple-swatch.jpg" alt="blue purple swatch">
+                                            <p>Blue-Purple</p>
+                                        </li>
+                                        <li class="swatches flex">
+                                            <img src="./assets/green-purple-swatch.jpg" alt="green purple swatch">
+                                            <p>Green-Purple</p> 
+                                        </li>
+                                    </ul>
+
+                                    <h3>Size:</h3>
+
+                                    <ul class="size-list flex">
+                                        <li class="size">
+                                            <p>XS</p>
+                                        </li>
+                                        <li class="size">
+                                            <p>S</p>
+                                        </li>
+                                        <li class="size">
+                                            <p>M</p>
+                                        </li>
+                                        <li class="size">
+                                            <p>L</p>
+                                        </li>
+                                        <li class="size">
+                                            <p>XL</p>
+                                        </li>
+                                    </ul>
+                                    
+                                    <div class="button-box flex">
+                                        <button><a href="#" target="_blank">Buy Now</a></button>
+                                    </div>
+                                </div>
+            
                             </div>
-        
-                            <div class="button-box flex">
-                                <button><a href="https://comforting-sfogliatella-fb8929.netlify.app/" target="_blank">View
-                                        Live</a></button>
-                                <button><a href="https://github.com/breweryFinder/breweryFinder" target="_blank">View
-                                        Code</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div> <!-- END .project-box-->
-                </div> <!-- END .flex-project-container -->
+                        </div> <!-- END .featured-box-->
+                    </div> <!-- END .flex-featured-container -->
+
+                                </div>
             </div> <!-- END .flex-column .wrapper-->
         </section> 
         <!-- END FEATURED PRODUCT -->
@@ -148,7 +158,9 @@
         <section class="about" id="about">
             <div class="wrapper">
                 <div class="about-container" data-aos="fade-up" data-aos-duration="5000">
-                    <h2>About Us</h2>
+
+                    <h1>About Us</h1>
+
                     <div class="about-flex">
                         <img src="./assets/ph-logo.png"
                             alt="Panda Logo!"
@@ -171,9 +183,9 @@
         <!-- STORE LOCATOR -->
         <section class="stores" id="stores">
             
-            <h2>Store Locations</h2>
+            <h1>Store Locations</h1>
             
-            <div class="flex-column wrapper" data-aos="fade-up"
+            <div class="flex-column" data-aos="fade-up"
                 data-aos-duration="5000">
 
                 <ul class="stores-container">
@@ -212,16 +224,15 @@
         <section class="contact" id="contact">
             <div class="flex-column wrapper" class="about-container" data-aos="fade-up" data-aos-duration="5000">
 
-                <h2>Contact</h2>
-                <p id="contact-jump">Have questions about our products?</p>
-
-                <p>Complete the form below to get in touch.</p>
+                <h1>Contact</h1>
+                
+                <h3>Complete the form below to get in touch.</h3>
 
                 <div class="form" class="about-container" data-aos="fade-up" data-aos-duration="5000">
 
                     <form action="https://formspree.io/f/mzbqzevk" method="POST" class="submit-message"
                         id="contact-form">
-                        <p>Please fill out <em>all</em> of the information:</p>
+            
                         <!-- Name Box -->
                         <label for="name" class="sr-only">Name</label>
                         <input type="text" name="text" placeholder="Name" id="name">
@@ -252,7 +263,7 @@
                     <a href="#home">Back to Top</a>
                 </button> -->
 
-                <p>Built in 2023 by Jennifer Blakney</p>
+                <p>Built in 2023 by Jennifer Blakney for In Social</p>
             </div>
         </div>
     </footer>

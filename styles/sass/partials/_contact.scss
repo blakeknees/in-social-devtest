@@ -1,5 +1,89 @@
 @use './variables';
 
-.contact {
+
+#contact {
     background-color: variables.$peach;
+
+    h1 {
+        color: variables.$purple;
+        margin-top: 2rem;
+    }
+
+    p {
+        color: variables.$dark-blue;
+        padding-bottom: 1rem;
+    }
+
+    ul {
+        margin: auto;
+        padding-bottom: 2rem;
+        padding-left: 0;
+
+        li {
+            i {
+                font-size: 2rem;
+                padding: 1rem;
+                color: variables.$purple;
+
+                &:hover, &:focus {
+                    color: variables.$dark-blue;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+
+    a {
+        color: variables.$purple;
+        font-weight: bold;
+    }
+
+    .form {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+
+        .submit-message {
+
+            border: 5px solid variables.$light-pink;
+            border-radius: 30px;
+
+            p {
+                color: variables.$dark-blue;
+            }
+
+            input,
+            textarea {
+                border: 2px solid lavender;
+                border-radius: 10px;
+            }
+
+            input {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                padding: 10px 20px;
+                width: 45%;
+                margin-left: 1.3rem;
+
+            }
+
+            input[type=email] {
+                width: 80%;
+                margin-left: 4rem;
+            }
+
+            textarea {
+                width: 90%;
+                padding: 15px 20px;
+                margin-left: 2.1rem;
+                margin-bottom: 2rem;
+            }
+
+            button {
+                width: 50%;
+                margin-left: 12rem;
+                margin-bottom: 2rem;
+                font-family: variables.$heading;
+            }
+        }
+    }
 }

@@ -18,6 +18,14 @@ h2 {
     font-size: 24px;
 }
 
+h3 {
+    font-family: variables.$subheading,
+    sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
 img {
     max-width: 100%;
 }
@@ -65,7 +73,7 @@ input,
 textarea {
     border: none;
     background-color: transparent;
-    // font-family: variables.$body-font, sans-serif;
+    font-family: variables.$body, sans-serif;
 }
 
 // CLASSES
@@ -84,30 +92,4 @@ textarea {
 .flex-column {
     display: flex;
     flex-direction: column;
-}
-
-#to-top {
-    position: fixed;
-    bottom: 15px;
-    right: 16px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    // border: 2px solid variables.$accent;
-    font-size: 25px;
-    // color: variables.$accent;
-    // background-color: variables.$button;
-    text-decoration: none;
-    display: none;
-
-    i {
-        font-size: 1.75rem;
-    }
-
-}
-
-#to-top.active {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
